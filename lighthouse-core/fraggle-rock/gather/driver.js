@@ -8,6 +8,7 @@
 const ProtocolSession = require('./session.js');
 const ExecutionContext = require('../../gather/driver/execution-context.js');
 
+/** @return {*} */
 const throwNotConnectedFn = () => {
   throw new Error('Session not connected');
 };
